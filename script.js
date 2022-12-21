@@ -17,7 +17,7 @@ const getData = () => {
     fetch(url)
         .then(res => res.json())
         .then(data => {
-            console.log(data);
+//             console.log(data);
             const { name, capital, region, subregion, area, independent, borders, flag, callingCodes, currencies,languages,regionalBlocs,timezones,topLevelDomain,population,nativeName
             } = data[0];
             img.src = flag;
